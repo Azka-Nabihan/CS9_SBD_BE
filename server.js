@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 // Konfigurasi CORS 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://cs-9-sbd-fe.vercel.app', // URL frontend 
     methods: ["GET", "POST", "PUT", "DELETE"],
     optionsSuccessStatus: 200,
 };
