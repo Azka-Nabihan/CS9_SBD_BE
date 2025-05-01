@@ -1,6 +1,6 @@
 const storeRepository = require('../repositories/storeRepositories');
 const cloudinary = require('cloudinary').v2;
-const bcrypt = require('bcrypt');   // Untuk hash password
+const bcrypt = require('bcryptjs');   // Untuk hash password
 const stream = require('stream');   // // Untuk upload image
 
 // Konfigurasi Cloudinary
